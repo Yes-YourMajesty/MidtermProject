@@ -3,6 +3,7 @@ public class GameMaster {
         Hero abel = new Hero("アベル",100,"銅の剣");
         Slime s1 =new Slime("スライムA",30);
 
+
         System.out.println("冒険が始まる…！");
         abel.showStatus();
         s1.showStatus();
