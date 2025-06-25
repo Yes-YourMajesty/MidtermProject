@@ -3,7 +3,7 @@ public abstract class Character implements Creature {
     int hp;
     boolean alive;
 
-    public final void isAlive() {
+    final void isAlive() {
         if(hp > 0) {
             this.alive = true;
         }else{
@@ -12,7 +12,7 @@ public abstract class Character implements Creature {
         System.out.println(this.name + "は生きている: " + this.alive);
     }
 
-    public void showStatus(){
+    void showStatus(){
         System.out.println(this.name + ":HP " + this.hp);
     }
 }
