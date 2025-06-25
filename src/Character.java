@@ -3,9 +3,6 @@ public abstract class Character implements Creature {
     int hp;
     boolean alive;
 
-
-    public abstract void attack(Character target);
-
     public final void isAlive() {
         if(hp > 0) {
             this.alive = true;
