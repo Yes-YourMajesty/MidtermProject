@@ -1,6 +1,6 @@
 public final class Slime extends Character{
 
-    public Slime(String name,int hp){
+    Slime(String name,int hp){
         this.name=name;
         this.hp=hp;
         System.out.println(this.name + ":HP " + this.hp);
